@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*
- em HTML é id = em CSS é #
- em HTML é class = em CSS é .
+ em HTML é id = em CSS é # (só pode um elemento)
+ em HTML é class = em CSS é . (pode vários elementos)
 */
 body {
     background-color: rgb(205, 255, 203);
