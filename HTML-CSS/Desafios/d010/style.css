@@ -1,0 +1,60 @@
+@charset "UTF-8";
+@import "pacote-projeto-d010/fontes/idroid.otf";
+
+/*Configurações das CSS do Cabeçalho*/
+header {
+   background-image: linear-gradient(to right, rgb(8, 214, 118),rgb(9, 172, 96), rgb(0, 236, 185));
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 3px 3px;
+    border-radius: 5px 20px;
+    padding: 20px;
+    color: white;
+}
+
+header > h1 {
+    background-color: rgb(5, 140, 96);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: 'idroid';
+    font-size: 3em;
+}
+header > p {
+    background-color: rgb(5, 140, 96);
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px 5px;
+}
+
+nav {
+    background-color: rgb(5, 140, 104);
+    padding: 0px 10px 0px 10px;
+    border-radius: 10px;
+
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color:grey;
+}
+/*Fim das Configurações do cabeçalho*/
+/*---------------------------------------------------------------------------------------*/
+/*Configurações centrais do corpo da página*/
+
+body {
+    background-image: linear-gradient(to right, #407a4f, #25adaf);
+    text-align: center;
+}
+
+#principal {
+    font-family: 'idroid';
+    background-color: rgb(1, 255, 200);
+    border-radius: 2em;
+    padding: 1px;
+    font-size:18px;
+}
