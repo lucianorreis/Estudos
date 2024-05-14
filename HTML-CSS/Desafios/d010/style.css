@@ -58,3 +58,8 @@ body {
     padding: 1px;
     font-size:18px;
 }
+
+footer {
+    background-color: #26c6c9;
+    border-radius: 10px;
+}
