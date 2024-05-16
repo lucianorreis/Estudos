@@ -125,7 +125,6 @@ main {
 main h1 {
     color: var(--cor2);
     font-family: var(--font-android);
-    background-image: linear-gradient(to right, var(--cor5), transparent );
     padding: 1px 8px;
     border-radius: 8px;
     font-size: 1.8em;
