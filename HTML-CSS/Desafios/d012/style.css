@@ -33,37 +33,53 @@ header h1 {
 /*----------------------------Conteúdo------------------------------------*/
 main {
     background-color: rgb(255, 255, 255);
-    border: 1px dashed black;
     display: block;
     text-align: left;
     font-size: 130%;
-    font-family: Sc;
     font-family: var(--fonte-cordel);
+    font-weight: bolder;
 }
 
 .primeira {
+    padding: 5% 0% 10% 5%;
 }
 
 .segunda {
     background-image: url(imagens/background001.jpg);
-    background-size: 100%;
+    background-attachment: fixed;
+    background-size: cover;
     margin: auto;
 }
-#primeira.segunda {
+#segunda {
+    display: block;
+    padding: 5% 0% 10% 5%;
     background-color: rgba(0, 0, 0, 0.507);
     color: white;
 }
 
 .terceira {
-
+    padding: 5% 0% 10% 5%;
 }
 
 .quarta {
+    background-image: url(imagens/background002.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    margin: auto;
+}
+
+
+#quarta {
+    padding: 5% 0% 10% 5%;
 
 }
 
 .quinta {
+    padding: 2% 0% 10% 5%;
+}
 
+.sexta {
+    padding: 0% 0% 10% 5%;
 }
 /*-------------------------------Rodapé-----------------------------------*/
 footer {
@@ -73,7 +89,19 @@ footer {
     font-family: var(--fonte-cordel);
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgba(96, 30, 158, 0.733);
+}
 #estudonauta {
     color: blueviolet;
+}
+
+#estudonauta:hover {
+    color: rgb(60, 20, 97);
 }
 /*------------------------------------------------------------------------*/
