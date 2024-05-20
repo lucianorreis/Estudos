@@ -58,9 +58,9 @@ main {
     width: auto;
 }
 #segunda {
-    display: inline-block;
+    display: block;
     padding: 5% 0% 10% 5%;
-    width: 300px;
+    width: 650px;
     background-color: rgba(0, 0, 0, 0.507);
     color: white;
 }
@@ -80,7 +80,7 @@ main {
 
 #quarta { 
     padding: 5% 0% 10% 5%;
-    width: 300px;
+    width: 650px;
     background-color: rgba(0, 0, 0, 0.507);
     color: white;
 
