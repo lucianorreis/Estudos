@@ -55,6 +55,7 @@ main {
     background-attachment: fixed;
     background-size: cover;
     margin: auto;
+    width: auto;
 }
 #segunda {
     display: inline-block;
@@ -72,6 +73,7 @@ main {
     background-image: url(imagens/background002.jpg);
     background-attachment: fixed;
     background-size: cover;
+    width: auto;
     margin: auto;
 }
 
