@@ -18,7 +18,7 @@ header {
     background-color: black;
     text-align: center;
     padding: 5vh;
-    margin: -5vh -5vh 0vh -5vh;
+    margin: -5vh 0vh 0vh -5vh;
     font-family: 'Passion One', 'Times New Roman', Times, serif;
 }
 
@@ -28,7 +28,8 @@ header h1 {
 }
 
 #linkautor:hover {
-    color: gray;
+    text-decoration: underline;
+    color: white;
 }
 
 .autor {
@@ -38,6 +39,7 @@ header h1 {
 main {
     background-color: rgb(255, 255, 255);
     display: block;
+    width: 100%;
     text-align: left;
     font-size: 130%;
     font-family: var(--fonte-cordel);
