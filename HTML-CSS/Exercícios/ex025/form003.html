@@ -7,7 +7,9 @@
 </head>
 <body>
     <h1>Teste de Formulário</h1>
+    <!-- Controle de Média -->
         <form action="cadastro.php" method="get">
+            <!-- Área Principal, Controles de Nome e Média dos Alunos -->
             <p>
                 <label for="inome">Nome: </label>
                 <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome Completo" autocomplete="name">
@@ -15,16 +17,35 @@
             <p>
                 <label for="imedia">Média</label>
                 <input type="number" name="media" id="imedia" min="0" max="10" autocomplete="on" placeholder="0 a 10" step="0.1">
-            </p> <!-- Min e Max só funcionam com valores numéricos
-                      minlength e maxlength funcionam como limite de caracteres -->
+            </p> 
+            <!-------------------------------------------------------------------------------------------------->
+                <!-- 
+                    Min e Max só funcionam com valores numéricos
+                      minlength e maxlength funcionam como limite de caracteres 
+                -->
+
+            <!-- Controle Mensal, Mês e Ano apenas -->
             <p>
                 <label for="imes">Período Letivo</label>
-                <input type="month" name="mes" id="imes">
+                <input type="month" name="mes" id="imes" value="2020-07">
             </p>
+            <!-- Controles do Dia(Data completa) -->
+            <p>
+                <label for="idia">Dia da Prova: </label>
+                <input type="date" name="dia" id="idia" value="2020-07-14">
+            </p>
+            <!-- Controles de Horário -->
+            <p>
+                <label for="ihor">Horário da prova: </label>
+                <input type="time" name="hora" id="ihor">
+            </p>
+            <!-- Controles de Envio e Limpar Formulário -->
             <p>
                 <input type="submit" value="Enviar">
                 <input type="reset" value="Limpar">
             </p>
+            <!-------------------------------------------------------------------------------------------------->
         </form>
+<!-- Fim do Controle de Média -->
 </body>
 </html>
