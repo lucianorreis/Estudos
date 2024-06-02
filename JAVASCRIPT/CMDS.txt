@@ -1,22 +1,23 @@
 -----------------------------------------------------------------------------------------    
-    Localizador de Valores
-        n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+Localizador de Valores
+
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
 ---------------------------------------------------------------------------------------
-            + para adição
-             + para concatenação
++ para adição
++ para concatenação
 
-            String -> Número
+String -> Número
 
-            Number.parseInt(n) - Numeros Inteiros
-            Number.parseFloat(n) - Numeros racionais(Com virgula)
-            Number(n) - O proprio motor JS verifica o tipo do dado numeral inserido
+Number.parseInt(n) - Numeros Inteiros
+Number.parseFloat(n) - Numeros racionais(Com virgula)
+Number(n) - O proprio motor JS verifica o tipo do dado numeral inserido
 
-            
-            Número -> String
 
-            String(n)
-            n.toString()
+Número -> String
 
-            s.length        | Quantos caracteres a string tem
-            s.toUpperCase()   |
+String(n)
+n.toString()
+
+s.length          | Quantos caracteres a string tem
+s.toUpperCase()   |
 ----------------------------------------------------------------------------------------
