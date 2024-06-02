@@ -7,20 +7,18 @@
     <style>
         body {
             background-color: grey;
+            color: white;
         }
     </style>
 </head>
 <body>
-
-    <div>
-        <h1>Meu Primeiro Programa em <span style="color: yellow;border: 1px solid white; background-color: rgb(124, 124, 124); padding: 2px; border-radius: 50%;">JavaScript</span></h1>
-    </div>
-
+        <h1>Olá mundo!</h1>
+        <p>Me livrei da maldição!</p>
+    
         <script>
-            /*Script simples*/
-            window.alert('Minha primeira mensagem')
-            window.confirm('Está gostando de JS?')
-            window.prompt('Qual é o seu nome?')
+            //variável 'nome' recebe o resultado do prompt que aparece na janela
+             var nome = window.prompt('Qual é o seu nome?')
+             window.alert('É um grande prazer em te conhecer ' + nome) //+ é para concatenação
         </script>
 </body>
 </html>
