@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+/*-------------------------Config.Padrão----------------------------------*/
+:root {
+    --fonte-padrao: Times, Verdana, sans-serif;
+    --fonte-titulo: 'Passion One', Times, sans-serif;
+    --fonte-cordel: 'Sriracha', Arial, Sans-serif;    
+}
+
+* {
+    margin: 0px;
+}
+/*---------------------------Cabeçalho------------------------------------*/
+header {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 5vh;
+    margin: -5vh 0vh 0vh -5vh;
+    font-family: 'Passion One', 'Times New Roman', Times, serif;
+}
+
+header h1 {
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+#linkautor:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.autor {
+    font-weight: bolder;
+}
+/*----------------------------Conteúdo------------------------------------*/
+main {
+    background-color: rgb(255, 255, 255);
+    display: block;
+    width: 100%;
+    text-align: left;
+    font-size: 2.8vw;
+    font-family: var(--fonte-cordel);
+    font-weight: bolder;
+}
+
+.primeira {
+    padding: 5% 0% 10% 5%;
+}
+
+.segunda { /*Primeira Imagem*/
+    background-image: url(imagens/background001.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    margin: auto;
+    width: auto;
+}
+#segunda {
+    display: block;
+    padding: 5% 0% 10% 5%;
+    width: 650px;
+    background-color: rgba(0, 0, 0, 0.507);
+    color: white;
+}
+
+.terceira {
+    padding: 5% 0% 10% 5%;
+}
+
+.quarta { /*Segunda Imagem*/
+    background-image: url(imagens/background002.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: auto;
+    margin: auto;
+}
+
+
+#quarta { 
+    padding: 5% 0% 10% 5%;
+    width: 650px;
+    background-color: rgba(0, 0, 0, 0.507);
+    color: white;
+
+}
+
+.quinta {
+    padding: 2% 0% 10% 5%;
+}
+
+.sexta {
+    padding: 0% 0% 10% 5%;
+}
+/*-------------------------------Rodapé-----------------------------------*/
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: var(--fonte-cordel);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgba(96, 30, 158, 0.733);
+}
+#estudonauta {
+    color: blueviolet;
+}
+
+#estudonauta:hover {
+    color: rgb(60, 20, 97);
+}
+/*------------------------------------------------------------------------*/
