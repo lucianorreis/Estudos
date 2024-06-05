@@ -42,3 +42,26 @@ blocos sao delimitados por
 
 }"
 ----------------------------------------------------------------->
+Condições
+
+if (condição) {
+    true    
+} else {
+    false
+}
+
+Tipos de condição 
+
+Condição simples:
+
+if (condição) {
+    true
+}
+
+Condição composta:
+
+if (condição) {
+    true
+} else {
+    false
+}
