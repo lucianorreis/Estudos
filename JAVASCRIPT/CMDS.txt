@@ -1,0 +1,67 @@
+-----------------------------------------------------------------------------------------    
+Localizador de Valores
+
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+---------------------------------------------------------------------------------------
++ para adição
++ para concatenação
+
+String -> Número
+
+Number.parseInt(n) - Numeros Inteiros
+Number.parseFloat(n) - Numeros racionais(Com virgula)
+Number(n) - O proprio motor JS verifica o tipo do dado numeral inserido
+
+
+Número -> String
+
+String(n)
+n.toString()
+
+s.length          | Quantos caracteres a string tem
+s.toUpperCase()   |
+----------------------------------------------------------------------------------------
+<!-- Eventos com DOM 
+Mouse
+
+mouseenter
+mousemove
+mousedown
+mouseup
+click
+mouseout
+
+-----------------------------------------------------------------
+Funções
+
+Conjunto de linhas(bloco) que executam a partir de um evento
+
+blocos sao delimitados por 
+
+"function ação(param) {
+
+}"
+----------------------------------------------------------------->
+Condições
+
+if (condição) {
+    true    
+} else {
+    false
+}
+
+Tipos de condição 
+
+Condição simples:
+
+if (condição) {
+    true
+}
+
+Condição composta:
+
+if (condição) {
+    true
+} else {
+    false
+}

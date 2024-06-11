@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+    <style>
+        div#area {
+            font: bolder 25px Arial;
+            background: green;
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="area">
+        Interaja . . .
+    </div>
+    <script>
+        var a = document.getElementById('area')
+        a.addEventListener('click', clicar)
+        a.addEventListener('mouseenter', entrar)
+        a.addEventListener('mouseout', sair)
+
+        function clicar() {
+            a.innerText = 'Clicou!'
+            a.style.background = 'red'    
+        }
+        function entrar() {
+            a.innerText = 'Entrou!'
+        }
+        function sair() {
+            a.innerText = 'Saiu!'
+            a.style.background = 'green'
+        }
+        
+        /* 
+        Oque estiver entre chaves'{}' só será executado ao ocorrer o evento nomeado
+        Ao clicar na div, o comando liga a variável 'a' à div area  e executará o evento, mudando o conteúdo do bloco 
+        */
+    </script>
+</body>
+</html>
+
+<!-- Eventos com DOM 
+Mouse
+
+mouseenter
+mousemove
+mousedown
+mouseup
+click
+mouseout
+
+-----------------------------------------------------------------
+
+Funções
+
+Conjunto de linhas(bloco) que executam a partir de um evento
+
+blocos sao delimitados por 
+
+"function ação(param) {
+
+}"
+----------------------------------------------------------------->
