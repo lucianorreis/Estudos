@@ -49,6 +49,7 @@ menu > ul > li > a {
     background-color: rgb(71, 71, 71);
     color: white;
     border-top: 2px solid gray;
+    border-radius: 10%;
 }
 
 menu > ul > li > a:hover {
@@ -73,3 +74,4 @@ article > p {
     margin-bottom: 20px;
     text-indent: 20px;
 }
+
