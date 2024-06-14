@@ -65,6 +65,20 @@ if (condição) {
 } else {
     false
 }
+
+Condição Múltipla:
+
+switch (expressão) {
+    case valor1:
+
+        break
+    case valor2:
+        break
+    case valor3:
+        break
+    default:
+        break(opcional)
+}
 -----------------------------------------------------------------------------
 MEDIA QUERIES
 
