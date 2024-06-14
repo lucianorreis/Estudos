@@ -70,13 +70,16 @@ Condição Múltipla:
 
 switch (expressão) {
     case valor1:
-
-        break
+        [Bloco]
+        break <- Serve para Seguir o Fluxo do codigo assim que o caso for True
     case valor2:
+        [Bloco]
         break
     case valor3:
+        [Bloco]
         break
     default:
+        [Bloco]
         break(opcional)
 }
 -----------------------------------------------------------------------------
