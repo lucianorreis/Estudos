@@ -147,3 +147,4 @@ cross-start e cross-end
 
 flex-wrap: nowrap;(padrão)
 flex-wrap: wrap; - pega o ultimo elemento e "quebra", sempre no sentido do eixo transversal
+flex-wrap: wrap-reverse; - Segue o sentido contrário do eixo transversal
