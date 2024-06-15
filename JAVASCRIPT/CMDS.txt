@@ -117,7 +117,7 @@ Grandes Telas: > 1200px
 
 -------------------------------------------------------------------------------
 
-FLEX BOX
+- FLEX BOX -
 
 display: flex;
 
@@ -143,4 +143,7 @@ main-start e main-end.
 cross-axis(Eixo Transversal) - Vertical quando Row e Horizontal quando Column
 cross-start e cross-end
 
-////////////////
+///FLEX WRAP///
+
+flex-wrap: nowrap;(padrão)
+flex-wrap: wrap; - pega o ultimo elemento e "quebra", sempre no sentido do eixo transversal
