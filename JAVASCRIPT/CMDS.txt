@@ -165,3 +165,9 @@ center
 space-between
 space-evenly
 
+/*-- Centraliza os elementos da tela --*/
+display: flex;
+flex-flow: row nowrap;
+justify-content: center;
+align-items: center;
+/*-------------------------------------*/

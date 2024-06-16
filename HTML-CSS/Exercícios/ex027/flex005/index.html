@@ -1,30 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flexible Boxes</title>
+    <title>FlexBox Centralizado</title>
     <style>
-        div.conteiner {
-            background-color: gray;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: lightsalmon;
             display: flex;
         }
 
-        div.item {
-            background-color: rgb(78, 78, 78);
-            border: 1px solid black;
-            flex: auto;
-            text-align: center;
+        main {
+            background-color: lightgreen;
+            height: 100vh;
+            width: 100vw;
+
+            /*-- Centraliza os elementos da tela --*/
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+            /*-------------------------------------*/
+        }
+
+        section {
+            background-color: lightseagreen;
+            width: 200px;
+            height: 200px;
         }
     </style>
 </head>
 <body>
-    <div class="conteiner">
-        <div class="item">A</div>
-        <div class="item">B</div>
-        <div class="item">C</div>
-        <div class="item">D</div>
-        <div class="item">E</div>
-    </div>
+    <main>
+        <section>
+            <h1>Tela de Login</h1>
+        </section>
+    </main>
 </body>
 </html>
