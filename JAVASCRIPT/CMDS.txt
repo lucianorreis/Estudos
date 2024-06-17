@@ -171,3 +171,15 @@ flex-flow: row nowrap;
 justify-content: center;
 align-items: center;
 /*-------------------------------------*/
+
+order:;
+
+align-self: ;
+
+auto
+flex-start
+flex-end
+center
+stretch
+
+auto ou inehit (Valor padrão)
