@@ -7,8 +7,10 @@
     <style>
         .conteiner {
             display: flex;
-            flex-flow: column wrap;
+            flex-flow: row wrap;
             background-color: gray;
+            align-items: flex-start;
+            height: 400px;
         }
 
         .item {
@@ -20,15 +22,15 @@
         }
 
         div#i1 {
-            order: 1;
+            align-self: stretch;
         }
 
         div#i2{
-            order: 2;
+            align-self: center;
         }
 
         div#i3{
-            order: 3;
+            align-self: flex-end;
         }
 
     </style>
