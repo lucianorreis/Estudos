@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visto</title>
+</head>
+<body>
+    <h1>Estrangeiro ou Brasileiro</h1>
+    Diga seu país de origem: <input type="text" name="est" id="est">
+    <input type="button" value="Verificar" onclick="visto()">
+    <div id="país"></div>
+    <script>
+        function visto() { 
+             "Brasil"
+           var país = document.querySelector('input#est')
+            var res = document.querySelector('div#país')
+           
+            if (país == "Brasil") {
+                res.innerHTML += ("Brasileiro")
+            } 
+            else {
+                res.innerHTML += ("Estrangeiro")
+            }
+        }
+    </script>
+</body>
+</html>
