@@ -12,16 +12,17 @@
     </header>
     <section>
         <div>
-            <form action="verificador.php">
+            <form action="">
                 <label for="nasc">Ano de Nascimento:</label>
                 <input type="text" name="nasc" id="nasc"><br>
-                <input type="radio" name="sexo" id="isexmas" checked><label for="isexmas">Masculino</label>
-                <input type="radio" name="sexo" id="isexfem"><label for="isexfem">Feminino</label>
+                <input type="radio" name="sexo" id="isexmas" checked><label for="isexmas"> Masculino</label>
+                <input type="radio" name="sexo" id="isexfem"><label for="isexfem"> Feminino</label>
                 <br>
-                <input id="Verificar" type="submit" value="Verificar">
-                <p>Preencha os dados acima para ver o resultado!</p>
+                <input  id="Verificar" type="button" value="Verificar" onclick="calcidade()">
             </form>
-                
+        </div>
+        <div id="res">
+            <p>Preencha os dados acima para ver o resultado!</p>
         </div>
     </section>
     <footer>

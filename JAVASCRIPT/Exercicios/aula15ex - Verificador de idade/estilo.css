@@ -23,3 +23,27 @@ footer {
     text-align: center;
     font-style: italic;
 }
+
+form {
+    margin: 20px 20px;
+}
+
+input {
+    margin: 9px 0px;
+}
+
+input#Verificar {
+    box-sizing: border-box;
+    border: 2px solid color-mix(in srgb, #fff 20%, #000 60%);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input#Verificar:hover { 
+    transform: scale(110%);
+    box-sizing: border-box;
+    border: 2px solid color-mix(in srgb, #fff 20%, #000 60%);
+    padding: 10px;
+    border-radius: 10px;
+    transition: .5s;
+}
