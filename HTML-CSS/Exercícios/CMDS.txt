@@ -183,3 +183,8 @@ center
 stretch
 
 auto ou inehit (Valor padrão)
+
+flex-grow:;
+flex-schrink:;
+
+-------------------------------------
