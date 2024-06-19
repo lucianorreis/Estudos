@@ -188,4 +188,11 @@ flex-basis:;
 flex-grow:;
 flex-schrink:;
 
+Simplificando:
+
+flex-basis: 150px;
+flex-grow: 0;
+flex-schrink: 1;
+ 
+flex: 0 1 150px
 -------------------------------------
