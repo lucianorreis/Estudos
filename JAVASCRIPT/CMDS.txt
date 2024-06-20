@@ -3,6 +3,8 @@
 
 	variáveis compostas devem ser capazes de armazenar vários valores 
 	em uma mesma estrutura.
+
+	vaga a = [ , , ]
 <!---------------------------------------------------------------------->  
 Localizador de Valores
 
