@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+div {
+    margin: 15px;
+}
+
 body {
     background-color: rgb(69, 132, 204);
     font: normal 15pt arial;

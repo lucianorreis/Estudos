@@ -1,0 +1,7 @@
+{
+    "animations.Active": "Indent",
+    "animations.Command-Palette": "Slide",
+    "animations.CursorAnimation": false,
+    "animations.Scrolling": "Slide",
+    "notebook.defaultFormatter": "esbenp.prettier-vscode"
+}
