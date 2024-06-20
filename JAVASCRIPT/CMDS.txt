@@ -4,7 +4,12 @@
 	variáveis compostas devem ser capazes de armazenar vários valores 
 	em uma mesma estrutura.
 
-	vaga a = [ , , ]
+	Array ou um vetor é uma variável que tem vários elementos.
+	Cada elemento é composto por seu valor e chave de identificação
+
+	Exemplo:
+	let num = [5,8,4]  -  Os elementos começam do 0, logo:
+	5 = 0, 8 = 2, 4 = 3
 <!---------------------------------------------------------------------->  
 Localizador de Valores
 
