@@ -1,4 +1,9 @@
-<!-------------------------- JAVA SCRIPT ------------------------------->    
+<!-------------------------- JAVA SCRIPT -------------------------------> 
+	Variáveis Simples só conseguem armazenar um valor por vez.
+
+	variáveis compostas devem ser capazes de armazenar vários valores 
+	em uma mesma estrutura.
+<!---------------------------------------------------------------------->  
 Localizador de Valores
 
 	n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
@@ -51,7 +56,7 @@ Funções
 		}
 	-------------------------------------
 	>
-	<!- Tipos de condição -> 
+	<--> Tipos de condição-> 
 	<f
 		Condição simples:
 
