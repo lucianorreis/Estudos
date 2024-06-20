@@ -1,8 +1,9 @@
-<!----------------------------------------------------------------------------------------->    
-	Localizador de Valores
+<!-------------------------- JAVA SCRIPT ------------------------------->    
+Localizador de Valores
 
 	n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
 <!--------------------------------------------------------------------------------------->
+Sinais e Converções
 	+ para adição
 	+ para concatenação
 
@@ -30,9 +31,8 @@
 	mouseup
 	click
 	mouseout
-
 -----------------------------------------------------------------
-	Funções
+Funções
 
 	Conjunto de linhas(bloco) que executam a partir de um evento
 
@@ -43,79 +43,79 @@
 	}"
 ----------------------------------------------------------------->
 <!--	Condições -->
-<f
-	if (condição) {
-		true
-	} else {
-		false
-	}
--------------------------------------
->
- <!- Tipos de condição -> 
-<f
-	Condição simples:
-
-	if (condição) {
-		true
-	}
-
-	Condição composta:
-
-	if (condição) {
-		true
-	} else {
-		false
-	}
->
-<!------------------------------------>
-
-<f Condição Múltipla: 
-
-	switch (expressão) {
-		case valor1:
-		    [Bloco]
-		    break <- Serve para Seguir o Fluxo do codigo assim que o caso for True
-		case valor2:
-		    [Bloco]
-		    break
-		case valor3:
-		    [Bloco]
-		    break
-		default:
-		    [Bloco]
-		    break(opcional)
-	}
-<!-------------------------------------------------------------------------->
-	Repetições
-
---------- Exemplo -----------
-	function comerPizza(){
-		while (temFatia()) {
-			comerFatia()
+	<f
+		if (condição) {
+			true
+		} else {
+			false
 		}
-	}
------------------------------	
-    var c = 1
-<!- ----------------------------- >	
-//Executa primeiro e depois faz o teste
-    do {
-        console.log(`Passo ${c}`)
-        c++ // c = c + 1
-    } while (c <= 6)
-<!- ----------------------------- >
-// Testa Primeiro e depois executa
-    var c = 1
-    while (c <= 3 ) {
-        console.log(`Passo ${c}`)
-        c++ // c = c + 1
-    } 
-<!- ----------------------------- >
-//Se o teste for falso, ele seguirá o fluxo
-	for(inicio; teste ; incr) {
-			[BLOCO]
-	}
+	-------------------------------------
+	>
+	<!- Tipos de condição -> 
+	<f
+		Condição simples:
+
+		if (condição) {
+			true
+		}
+
+		Condição composta:
+
+		if (condição) {
+			true
+		} else {
+			false
+		}
+	>
+	<!------------------------------------>
+
+	<f Condição Múltipla: 
+
+		switch (expressão) {
+			case valor1:
+				[Bloco]
+				break <- Serve para Seguir o Fluxo do codigo assim que o caso for True
+			case valor2:
+				[Bloco]
+				break
+			case valor3:
+				[Bloco]
+				break
+			default:
+				[Bloco]
+				break(opcional)
+		}
 <!-------------------------------------------------------------------------->
->
+Repetições
+
+	--------- Exemplo -----------
+		function comerPizza(){
+			while (temFatia()) {
+				comerFatia()
+			}
+		}
+	-----------------------------	
+		var c = 1
+	<!- ----------------------------- >	
+	//Executa primeiro e depois faz o teste
+		do {
+			console.log(`Passo ${c}`)
+			c++ // c = c + 1
+		} while (c <= 6)
+	<!- ----------------------------- >
+	// Testa Primeiro e depois executa
+		var c = 1
+		while (c <= 3 ) {
+			console.log(`Passo ${c}`)
+			c++ // c = c + 1
+		} 
+	<!- ----------------------------- >
+		//Se o teste for falso, ele seguirá o fluxo
+		for(inicio; teste ; incr) {
+				[BLOCO]
+		}
+<!---------------------------- HTML ----------------------------------------->
+> Media Queries
 	MEDIA QUERIES
 
 	Todas as demais mídias
@@ -149,7 +149,7 @@
 
 	-------------------------------------------------------------------------------
 
-	- FLEX BOX -
+- FLEX BOX -
 
 	display: flex;
 
@@ -161,7 +161,6 @@
 	<-------- 
 	flex-direction: column; vv
 	flex-direction: column-reverse; ^^
-
 <!----------------------------------------------------------->
 
 <!- -----//////EIXOS////// ---------------------------------->
@@ -174,10 +173,9 @@
 
 	cross-axis(Eixo Transversal) - Vertical quando Row e Horizontal quando Column
 	cross-start e cross-end
-<!- ---------------------------------------------------------->
-	<!-- FLEX WRAP -->
-	
-<!- 
+<!- --------- FLEX BOXES------------------------------------->
+
+ <!- 
 	flex-wrap: nowrap;(padrão)
 	flex-wrap: wrap; - pega o ultimo elemento e "quebra", sempre no sentido do eixo transversal
 	flex-wrap: wrap-reverse; - Segue o sentido contrário do eixo transversal
@@ -197,7 +195,7 @@
 	center
 	space-between
 	space-evenly
-->
+	->
 
 	<!-- Centraliza os elementos da tela -->
 		 display: flex;
@@ -206,7 +204,7 @@
 		 align-items: center;
 	<!------------------------------------->
 
-<f
+	<f
 	order:;
 
 	align-self: ;
@@ -221,29 +219,29 @@
 	flex-basis:;
 	flex-grow:;
 	flex-schrink:;
-> <! ---------------------------------------
+	> <! ---------------------------------------
 	Simplificando flex:
----------------------------------------->
-<f -----------------------------------
+	---------------------------------------->
+	<f -----------------------------------
 	flex-basis: 150px;
     flex-grow: 0;
 	flex-schrink: 1;
 	 
 	flex: 0 1 150px
 
----------------------
+	---------------------
 	flex: 0 1 auto; 
 	flex: initial
----------------------
+	---------------------
 	flex: 0 0 auto;
 	flex: none;
----------------------
+	---------------------
 	flex: 1 1 auto;
 	flex: auto;
----------------------
+	---------------------
 	flex: 3 1 auto;
 	flex: 3	
---------------------------------------
+	--------------------------------------
 >
 
 
