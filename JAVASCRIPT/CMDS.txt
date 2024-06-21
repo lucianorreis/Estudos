@@ -46,13 +46,23 @@ Sinais e Converções
 -----------------------------------------------------------------
 Funções
 
+	São ações executadas assim que são chamadas ou em decorrência de algum evento.
 	Conjunto de linhas(bloco) que executam a partir de um evento
 
-	blocos sao delimitados por 
+	Uma função pode receber parâmetros e tornar parâmetro.
+	Toda função precisa:
+	 - Uma chamada
+	 - conjunto de parâmetros
+	 - ações
+	 - retorno
 
-	"function ação(param) {
+	 obs: Nem toda função tem parametros ou retornos
 
-	}"
+		function ação(param) {
+
+				return res
+			}
+		ação(5) 
 ----------------------------------------------------------------->
 <!--	Condições -->
 	<f
