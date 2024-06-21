@@ -58,11 +58,23 @@ Funções
 
 	 obs: Nem toda função tem parametros ou retornos
 
-		function ação(param) {
+		function ação(parâmetro) {
 
 				return res
 			}
 		ação(5) 
+
+		Exemplo:
+
+		function parimp(n) {
+			if(n%2==0){
+				return 'par'
+			} else {
+				return 'ímpar'
+			}
+		}
+
+		let res = parimp(11)
 ----------------------------------------------------------------->
 <!--	Condições -->
 	<f
