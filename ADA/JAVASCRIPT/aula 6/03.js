@@ -1,2 +1,2 @@
-const idade = prompt("QUal é a sua idade?") 
-console.log(idade)
+const idade = prompt("Qual é a sua idade?") 
+console.log(idade);
