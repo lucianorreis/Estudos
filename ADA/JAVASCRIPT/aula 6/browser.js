@@ -1,5 +1,5 @@
-const prompt = require("readline-sync");
+const prompt = require('readline-sync');
 
 const idade = prompt.question("Qual eh a sua idade? ");
 
-console.log(`O usuário tem ${idade}`);
+console.log(idade);
