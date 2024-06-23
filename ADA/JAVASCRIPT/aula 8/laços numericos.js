@@ -43,3 +43,83 @@ for (let i = 0; i < nome.length; i++){
     if (i === 4) break;
 }
 */
+
+// *| Arrays
+
+//?| Estrutura de dados que armazena mais de um dado.
+
+//*| const array = []
+
+const nota1 = 10;
+const nota2 = 8;
+const nota3 = 5;
+
+const notasDoAluno = [10, 8, 5];
+const pessoa = ["Walisson", 27, 1.77, true];
+
+console.log(notasDoAluno);
+console.log(pessoa);
+
+console.log(pessoa[0]);
+
+pessoa[3] = false;
+
+console.log(pessoa);
+
+console.clear();
+
+console.log(pessoa.length);
+
+console.clear();
+
+//*| Fatiamente de arrays
+
+const numeros = [40, 34, 67, 89, 23, 10];
+
+console.log(numeros.slice(0, 2));
+console.log(numeros.slice(2));
+
+console.clear();
+
+//?| Adiciona elementos no final do array
+numeros.push(0);
+
+console.log(numeros);
+
+//?| adiciona elementos no início do array
+
+console.clear();
+numeros.unshift(-1);
+console.log(numeros);
+
+//?| pop: remove elementos no final do array
+console.clear();
+numeros.pop(); // Remove o elemento 0 (do final)
+console.log(numeros);
+
+//?| shift:remover o primerio elemento do array
+numeros.shift();
+
+//?| Será que o elemento 20 existe no array numeros?
+
+console.clear()
+console.log(numeros.includes(20));
+console.log(numeros.includes(10));
+
+if (numeros.includes(20)) {
+    console.log('opa! Existe o número 20 dentro do array numeros')
+} else {
+    console.log("Não existe o numero 20 no array numeros")
+}
+
+const existeNum20 = numeros.includes(20)
+
+console.clear()
+
+//*| indexOf
+
+const indiceDoElemento20 = numeros.indexOf(20)
+
+//*| lastIndexOf()
+
+ 
