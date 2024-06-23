@@ -1,14 +1,10 @@
-let notaAluno = Number(prompt.question('Informe a nota do aluno: '))
+const numeroAleatorio = parseInt(math.random() * 10);
 
-let somaDasNotas = 0; //?| Acumulador
-let qtdnotas = 0; //?| Acumulador (quantidade de notas validas)
+let nUsuario = Number(prompt.question("Digite um numero de 1 a 10: "))
 
-while (notaAluno >= 0) {
-    somaDasNotas = somaDasNotas+ notaAluno //*| Incrementando o acumulador (somaDasNotas)
-    qtdnotas = qtdnotas + 1;
-
-    notaAluno= Number(prompt.question('Informe a próxima nota: '));
-}
-
-console.log(somaDasNotas);
-console.log(qtdnotas);
+while ((nUsuario) !== (numeroAleatorio)) { 
+    
+    let nUsuario = Number(prompt.question("Digite um numero de 1 a 10: "));
+} 
+console.log(numeroAleatorio)
+console.log(`Você acertou! O numero era: ${numeroAleatorio}`)
