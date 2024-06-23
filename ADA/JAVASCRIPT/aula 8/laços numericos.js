@@ -142,3 +142,8 @@ console.clear()
     console.log(indice, typeof indice)
     console.log(arr[0])
  }
+
+ console.clear()
+ for (let i = 0; i <= 9; i+=2) {
+    console.log(i);
+  }
