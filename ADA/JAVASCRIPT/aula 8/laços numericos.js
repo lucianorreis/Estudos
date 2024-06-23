@@ -122,4 +122,23 @@ const indiceDoElemento20 = numeros.indexOf(20)
 
 //*| lastIndexOf()
 
- 
+ //*| percorendo array com for
+console.clear()
+ const arr = [45, 36, 90, 76, 32, 7]
+
+ for (let i = 0; i < arr.length; i++){
+    console.log(i, arr[i])
+ }
+ console.clear()
+//*| for of - Percorre os elementos do Array
+
+ for (const elemento of arr) {
+    console.log(elemento)
+ }
+ console.clear()
+ //*| for in - Percorre os indices do Array
+
+ for (const indice in arr) {
+    console.log(indice, typeof indice)
+    console.log(arr[0])
+ }
