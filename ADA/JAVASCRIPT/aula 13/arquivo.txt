@@ -1,0 +1,3 @@
+Nome: Luciano
+Idade: 27
+Altura: 1.76
