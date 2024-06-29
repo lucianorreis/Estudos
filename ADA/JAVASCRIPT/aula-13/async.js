@@ -13,9 +13,12 @@ fs.readFile("ADA/JAVASCRIPT/aula-13/dados.txt", (erro, conteudoDoArquivo) => {
 */
 
 //?| Exemplo 2: setTimeout (função que cria um timer)
-
+/*
 console.log('Antes do SetTimeout')
 
 setTimeout(() => {
     console.log("Isso aqui vai ser executado apos 3 segundos!")
 }, 3 * 1000)
+*/
+
+//?| Promises
