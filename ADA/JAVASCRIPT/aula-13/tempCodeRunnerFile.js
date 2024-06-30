@@ -1,12 +1,13 @@
-const fs = require('fs');
+console.log("Antes da criação da promisse")
 
-//*| 1. Callbacks
+const promessa = new Promise((resolve, reject) => {
+    fs.readFile("ADA/JAVASCRIPT/aula-13/dados.txt", (erro, conteudoDoArquivo) => {
+        if (erro) {
+         reject("Ocorreu um erro ao tentar ler o arquivo:", erro);
+        } else {
+         resolve(String(conteudoDoArquivo));
+        }
+     })
+});
 
-// Função assíncrona (ler um arquivo leva tempo)
-fs.readFile("aula-13/dados.txt", (erro, conteudoDoArquivo) => {
-   if (erro) {
-    console.log("Ocorreu um erro ao tentar ler o arquivo:", erro);
-   } else {
-    console.log(conteudoDoArquivo)
-   }
-})
+console.log(promessa)
