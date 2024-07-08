@@ -1,0 +1,190 @@
+-----------------------------------------------------------------------------------------    
+Localizador de Valores
+
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+---------------------------------------------------------------------------------------
++ para adição
++ para concatenação
+
+String -> Número
+
+Number.parseInt(n) - Numeros Inteiros
+Number.parseFloat(n) - Numeros racionais(Com virgula)
+Number(n) - O proprio motor JS verifica o tipo do dado numeral inserido
+
+
+Número -> String
+
+String(n)
+n.toString()
+
+s.length          | Quantos caracteres a string tem
+s.toUpperCase()   |
+----------------------------------------------------------------------------------------
+<!-- Eventos com DOM 
+Mouse
+
+mouseenter
+mousemove
+mousedown
+mouseup
+click
+mouseout
+
+-----------------------------------------------------------------
+Funções
+
+Conjunto de linhas(bloco) que executam a partir de um evento
+
+blocos sao delimitados por 
+
+"function ação(param) {
+
+}"
+----------------------------------------------------------------->
+Condições
+
+if (condição) {
+    true    
+} else {
+    false
+}
+
+Tipos de condição 
+
+Condição simples:
+
+if (condição) {
+    true
+}
+
+Condição composta:
+
+if (condição) {
+    true
+} else {
+    false
+}
+
+Condição Múltipla:
+
+switch (expressão) {
+    case valor1:
+        [Bloco]
+        break <- Serve para Seguir o Fluxo do codigo assim que o caso for True
+    case valor2:
+        [Bloco]
+        break
+    case valor3:
+        [Bloco]
+        break
+    default:
+        [Bloco]
+        break(opcional)
+}
+-----------------------------------------------------------------------------
+
+MEDIA QUERIES
+
+Todas as demais mídias
+
+typical Device Breakpoints
+
+Pequenas Telas: até 600px
+Celular: 600px a 768px
+Tablet: 768px a 992px
+Desktop: 992px a 1200px
+Grandes Telas: > 1200px
+
+@media print { /* IMPRESSÃO */
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {   /* TABLET */
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) { /* DESKTOP */
+
+}
+
+@media screen and (min-width: 1200px) /* GRANDES TELAS */
+-------------------------------------------------------------------------------
+
+<i class="material-symbols-outlined">Input</i>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+-------------------------------------------------------------------------------
+
+- FLEX BOX -
+
+display: flex;
+
+///////FLEX DIRECTION///////
+
+flex-direction: row;
+--------->
+flex-direction: row-reverse;
+<-------- 
+flex-direction: column; vv
+flex-direction: column-reverse; ^^
+
+////////////////////////////
+
+//////EIXOS//////
+
+Ao usar flex-direction, sempre são criados os eixos (axis);
+Cada eixo gera 2 pontos principais: O inicial e o final 
+
+main-axis (Eixo Principal) - Horizontal quando Row e Vertical quando Column
+main-start e main-end.
+
+cross-axis(Eixo Transversal) - Vertical quando Row e Horizontal quando Column
+cross-start e cross-end
+
+///FLEX WRAP///
+
+flex-wrap: nowrap;(padrão)
+flex-wrap: wrap; - pega o ultimo elemento e "quebra", sempre no sentido do eixo transversal
+flex-wrap: wrap-reverse; - Segue o sentido contrário do eixo transversal
+
+SHORTHAND: flex-flow: row nowrap;
+
+
+align-items: stretch;(Padrão)
+align-items: flex-start;
+align-items: flex-end;
+align-items: center;
+
+
+justify-content: ;
+flex-start
+flex-end
+center
+space-between
+space-evenly
+
+/*-- Centraliza os elementos da tela --*/
+display: flex;
+flex-flow: row nowrap;
+justify-content: center;
+align-items: center;
+/*-------------------------------------*/
+
+order:;
+
+align-self: ;
+
+auto
+flex-start
+flex-end
+center
+stretch
+
+auto ou inehit (Valor padrão)
+
+flex-grow:;
+flex-schrink:;
+
+-------------------------------------
