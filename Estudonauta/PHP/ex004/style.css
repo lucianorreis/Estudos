@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+main {
+    background-image: linear-gradient(to right, rgb(38, 13, 41), rgb(59, 6, 51));
+    background-attachment: fixed;
+    height: 40.46rem;
+   
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.NomsobNom {
+    background-color: rgb(76, 26, 192);
+    height: 12em;
+    width: 20em;
+    margin: auto;
+    border-radius: 10%;
+}
+
+.NomsobNom p {
+    display: block;
+    color: white;
+    margin: 1em;
+    font-weight: bolder;
+    font-size: 18px;
+}
