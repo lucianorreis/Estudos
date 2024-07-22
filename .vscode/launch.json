@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": ".",
-      "program": "build/Debug/outDebug",
+      "cwd": "c:/Users/Usuário/Documents/GitHub/Estudos/Estudonauta/C/modulo 1",
+      "program": "c:/Users/Usuário/Documents/GitHub/Estudos/Estudonauta/C/modulo 1/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
