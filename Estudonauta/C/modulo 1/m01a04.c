@@ -1,10 +1,12 @@
 #include <stdio.h>
+#pragma region
 /*
 void main() {
     printf("O %s tem %i anos\n","Luciano", 20);
     printf("Seu peso atual é de %6.2fKg\n", 53.5); //Print só mostra strings
     printf("O seu sexo é %c", 'M');
 }
+#pragma endregion
 */
 void main() {
     unsigned int idade = 33;
