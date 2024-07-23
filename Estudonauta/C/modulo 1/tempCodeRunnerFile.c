@@ -14,16 +14,3 @@ void main() {
 
     printf("%s é do sexo %c, tem %i anos e pesa %.1fKG", nome, sexo, idade, peso);
 }
-/*
-    Int[4] - short[2], long[8], signed, unsigned
-        1835, 134, -18       ¦
-    Float[4]
-        4.5, 0.0075, -1.0893 ¦
-    Char
-        "Isso é um Char"     ¦
-    Double[8]
-        o dobro de Float
-    Void
-        valor vazio
-
-*/
