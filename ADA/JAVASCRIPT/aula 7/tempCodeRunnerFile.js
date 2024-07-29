@@ -1,6 +1,10 @@
-let numeros = [1, 2, 3, 4, 5, 6];
-let numerosPares = numeros.filter(function(numero) {
-    return numero % 1 === 0;
-});
+function verificaNumeros() {
+    let numeros = [1, 2, 3, 4, 5];
+ let quadrados = numeros.map(function(numero) {
+    return numero * numero;
+ });
 
-console.log(numerosPares);
+ console.log(quadrados); 
+}
+
+verificaNumeros();
