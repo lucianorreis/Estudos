@@ -1,10 +1,9 @@
-let numeros = [200, 500, 203, 2, 1, 480, 9080];
+let lista1 = [1, 2, 3, 4, 5, 6, 7];
+let lista2 = [1, 2, 3, 4, 5, 6, 7.5];
 
-function soPar() {
-  let apenasPares = numeros.every(function (numero) {
-    return numero % 2 === 0;
-  });
-  console.log(apenasPares);
+function identicidade() {
+    let identicos = lista1 === lista2;
+    console.log(identicos);
 }
 
-soPar();
+identicidade();
