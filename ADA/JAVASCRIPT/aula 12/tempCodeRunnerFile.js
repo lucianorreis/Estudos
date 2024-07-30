@@ -1,10 +1,10 @@
-let listaNumeros = [1,2,3,4,5,6]
+let numeros = [200, 500, 203, 2, 1, 480, 9080];
 
-function listagem() {
-let numerosPares = listaNumeros.filter(function(numero){
-    return numero % 2 === 0 
-})
-console.log(numerosPares);
+function soPar() {
+  let apenasPares = numeros.every(function (numero) {
+    return numero % 2 === 0;
+  });
+  console.log(apenasPares);
 }
 
-listagem();
+soPar();
