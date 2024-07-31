@@ -1,8 +1,6 @@
 function reversa(frase) {
-  let split = frase.split();
-  let array = split.reverse();
-  let inverso = array.join();
-  return inverso;
+  
+  return frase.split("").reverse("").join("")
 }
 
-reversa("Carambola");
+console.log(reversa("Carambola"));
