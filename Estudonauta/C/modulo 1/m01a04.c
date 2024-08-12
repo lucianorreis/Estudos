@@ -9,7 +9,7 @@ void main() {
 #pragma endregion
 */
 void main() {
-    unsigned int idade = 33;
+    unsigned int idade = 33;>
     float peso = 95.9;
     char sexo = 'M';
     char *nome = "Juvenal";
