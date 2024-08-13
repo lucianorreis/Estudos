@@ -6,8 +6,12 @@ void main(){
     printf("<< Especiais >>\n\n");
     printf("=-=-=-=-=-=-=-=-=-=-=-=-=\n");
     printf("`\a`\t=\tFaz Beep");
+
 }
 
+    //* #define MAI 21;
+    //Ou
+    //* const int MAI 21;
 /*
 Int[4] - short[2], long[8], signed, unsigned
     1835, 134, -18       ¦
