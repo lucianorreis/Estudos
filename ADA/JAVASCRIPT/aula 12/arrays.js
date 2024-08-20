@@ -19,7 +19,6 @@
 //   });
 //   console.log(multiplosDeCinco);
 // }
-
 // listagem();
 
 //* Questão 3
@@ -75,4 +74,23 @@
 // soPar();
 
 //* Questão 7
+// let array = [1 ,2 ,3 ,4 ,5 ,6, 7];
+// let array2 = ['A','B','C','D','E','F','G'];
 
+// function juntaArray() {
+//     let lista= array.concat(array2);
+//     console.log(lista)
+// }
+
+// juntaArray();
+
+//* Questão 8
+let lista1 = [1, 2, 3, 4, 5, 6, 7];
+let lista2 = [1, 2, 3, 4, 5, 6, 7.5];
+
+function identicidade() {
+    let identicos = lista1 === lista2;
+    console.log(identicos);
+}
+
+identicidade();
