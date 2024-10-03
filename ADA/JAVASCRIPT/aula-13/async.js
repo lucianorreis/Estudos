@@ -2,7 +2,7 @@ const fs = require("fs");
 
 //*| 1. Callbacks
 /*
-// Função assíncrona (ler um arquivo leva tempo)
+  Função assíncrona (ler um arquivo leva tempo)
 fs.readFile("ADA/JAVASCRIPT/aula-13/dados.txt", (erro, conteudoDoArquivo) => {
    if (erro) {
     console.log("Ocorreu um erro ao tentar ler o arquivo:", erro);
@@ -28,7 +28,7 @@ console.log("Antes da criação da promisse");
 function lerArquivoPromise() {
   return new Promise((resolve, reject) => {
     fs.readFile(
-      "ADA/JAVASCRIPT/aula-13/dados.txt",
+      "aula-13/dados.txt",
       (erro, conteudoDoArquivo) => {
         if (erro) {
           reject("Ocorreu um erro ao tentar ler o arquivo:", erro);
@@ -60,17 +60,21 @@ lerArquivoPromise ()
 
 async function leituraDeDados() {
   console.log("Isso é executado antes da promisse ser resolvida");
-try {
-    const retornoDaPromessa = await lerArquivoPromise(); //*| Espera a promessa ser resolvida para avançar no código
 
-  console.log(retornoDaPromessa)
-  console.log("Isso é executado depois da promisse ser resolvida");
- } catch (err) {
-    console.log(err);
-    console.log('Isso aqui é executado depois da promisse (com erro');
- } finally {
-    console.log("Dentro do finally!");
- }
+    try {
+      const retornoDaPromessa = await lerArquivoPromise(); //*| Espera a promessa ser resolvida para avançar no código
+
+        console.log(retornoDaPromessa)
+        console.log("Isso é executado depois da promisse ser resolvida");
+      } 
+    catch (err) {
+        console.log(err);
+        console.log('Isso aqui é executado depois da promisse (com erro');
+      } 
+    finally {
+        console.log("Dentro do finally!");
+      }
+
 }
 
 leituraDeDados();
